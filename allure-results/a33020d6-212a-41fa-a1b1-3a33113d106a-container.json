@@ -1,1 +1,0 @@
-{"uuid":"a33020d6-212a-41fa-a1b1-3a33113d106a","name":"RestAssured2.specSetup","children":["efb0ce25-5cc9-40cc-abf0-cf7ca06b641d"],"description":"","befores":[{"name":"specSetup","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1687262033504,"stop":1687262033513}],"afters":[],"start":1687262033503,"stop":1687262033514}
