@@ -7,14 +7,14 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
-import static io.restassured.RestAssured.given;
-import static org.hamcrest.Matchers.equalTo;
+
 
 public class TestRun extends Constants {
 
     @BeforeMethod
     public void specialSetup() {
         RestAssured.baseURI = "http://ergast.com/api/f1";
+
     }
 
     @Test(dataProvider = "provider")
