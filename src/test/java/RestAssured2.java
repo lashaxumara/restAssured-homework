@@ -4,7 +4,6 @@ import io.restassured.path.json.JsonPath;
 import io.restassured.specification.RequestSpecification;
 import org.json.JSONObject;
 import org.testng.Assert;
-import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 import java.time.LocalDateTime;
@@ -15,11 +14,6 @@ import static Data.Constants.expectedStatusCode;
 import static Data.Constants.lastBookIsbn;
 
 public class RestAssured2 {
-
-    @BeforeMethod
-    public void specSetup() {
-
-    }
 
     @Test
     public void log() {
