@@ -33,7 +33,7 @@ public class RestAssuredBasic3 {
                 when().
                 delete("/booking/" + randomNumber + "").
                 then().
-                statusCode(expectedStatusCode);
+                statusCode(expectedCreateStatusCode);
     }
 
     @Test

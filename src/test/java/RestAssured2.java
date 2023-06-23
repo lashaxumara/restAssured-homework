@@ -10,8 +10,7 @@ import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.List;
 
-import static Data.Constants.expectedStatusCode;
-import static Data.Constants.lastBookIsbn;
+import static Data.Constants.*;
 
 public class RestAssured2 {
 
@@ -39,7 +38,7 @@ public class RestAssured2 {
                 .contentType(ContentType.JSON)
                 .put("https://restful-booker.herokuapp.com/booking/1")
                 .then()
-                .log().ifStatusCodeIsEqualTo(expectedStatusCode)
+                .log().ifStatusCodeIsEqualTo(expectedCreateStatusCode)
                 .extract()
                 .statusCode();
 
