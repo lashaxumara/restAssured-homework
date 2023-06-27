@@ -5,6 +5,8 @@ public class Constants {
             countryUSA = "USA",
             countryHun = "Hungary",
             countryUAE = "UAE",
+            countryAn = "Antarctica",
+            countryAmerica = "The Americas",
             lastBookIsbn = "9781593277574",
             successfulEmail = "eve.holt@reqres.in",
             successfulPassword = "pistol",
@@ -13,12 +15,15 @@ public class Constants {
             successResponseID = "4",
             successResponseToken = "QpwL5tke4Pnpja7X4",
             usersName = "morpheus",
+            exceptedHomeStreet = "6894 Clinton Place",
+            exceptedOfficeZip = "73302",
             usersJob = "leader";
 
 
     public static int
             index1 = 1,
             index5 = 5,
+            exceptedSize = 6,
             expectedCreateStatusCode = 201,
             exceptedGetStatusCode = 200,
             exceptedErrorStatusCode = 400;
