@@ -17,6 +17,9 @@ public class Constants {
             usersName = "morpheus",
             exceptedHomeStreet = "6894 Clinton Place",
             exceptedOfficeZip = "73302",
+            firstName = "lasha",
+            lastName = "xumara",
+            depositPaid = "true",
             usersJob = "leader";
 
 
@@ -26,7 +29,7 @@ public class Constants {
             exceptedSize = 6,
             expectedCreateStatusCode = 201,
             exceptedGetStatusCode = 200,
+            totalPrice = 500,
             exceptedErrorStatusCode = 400;
-
 
 }
